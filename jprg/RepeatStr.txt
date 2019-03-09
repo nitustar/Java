@@ -1,0 +1,26 @@
+import java.util.io.*;
+class RepeatStr
+	{
+	public static void main(Strig a[])
+		{
+		int i=0;
+		Scanner sc=new Scanner(System.in);
+		char str=sc.next();
+		int l=str.lenght();
+		while(i<l)
+			{
+			char t=str.charAt(i);
+			char t1=str.charAt(i-1);
+			if(t!=t1)
+				{
+				char rev=rev+t;
+				}
+			else	
+				{
+				pass
+				}
+			i++;
+			}
+		System.out.println("Reverse String is %s",rev);
+		}
+	}
